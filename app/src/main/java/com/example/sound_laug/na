@@ -1,0 +1,11 @@
+private void  on_media_player(MediaPlayer mediaPlayer){
+        MainActivity.this.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                if (!mediaPlayer.isPlaying()){
+                    sound_play.on_sound_play();
+                }
+                handler.postDelayed(this,1000);
+            }
+        });
+}

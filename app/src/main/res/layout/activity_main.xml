@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#656565"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="47dp"
+        android:autoSizeMaxTextSize="@android:dimen/app_icon_size"
+        android:text="Sher Interessant"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/now_playing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spielen:"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="5dp"
+            ></TextView>
+
+        <Button
+            android:id="@+id/guantouxiao"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:onClick="click"
+            android:text="play"
+            android:textColor="#000000"
+            tools:ignore="InvalidId,MissingConstraints"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="115dp" />
+
+        <TextView
+            android:id="@+id/soundname1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="幽默罐头笑-1"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#D3001335"></TextView>
+
+        <SeekBar
+            android:id="@+id/guantxskd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"></SeekBar>
+
+        <!--    gxt-->
+
+        <Button
+            android:id="@+id/gouantouxiao2"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:onClick="click"
+            android:text="play"
+            android:textColor="#000000"
+            tools:ignore="InvalidId,MissingConstraints"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="200dp"
+            />
+
+        <TextView
+            android:id="@+id/soundname2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="幽默罐头笑-2"
+            android:layout_marginTop="215dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#D3001335"></TextView>
+
+        <SeekBar
+            android:id="@+id/guantouxiao2_sk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"></SeekBar>
+
+<!--     80t   -->
+
+        <Button
+            android:id="@+id/ottoneexr2"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:onClick="click"
+            android:text="play"
+            android:textColor="#000000"
+            tools:ignore="InvalidId,MissingConstraints"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="280dp"
+            />
+
+        <TextView
+            android:id="@+id/soundname3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="otto-你恶心人也有个度啊"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#D3001335"></TextView>
+
+        <SeekBar
+            android:id="@+id/otto3_sk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="335dp"></SeekBar>
+
+<!--80-->
+        <Button
+            android:id="@+id/ottocc1"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:onClick="click"
+            android:text="play"
+            android:textColor="#000000"
+            tools:ignore="InvalidId,MissingConstraints"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="360dp"
+            />
+
+        <TextView
+            android:id="@+id/soundname4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="otto-冲刺，冲"
+            android:layout_marginTop="375dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#D3001335"></TextView>
+
+        <SeekBar
+            android:id="@+id/otto4_sk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="415dp"></SeekBar>
+
+<!--        -->
+        <Button
+            android:id="@+id/ottodjt"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:onClick="click"
+            android:text="play"
+            android:textColor="#000000"
+            tools:ignore="InvalidId,MissingConstraints"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="440dp"
+            />
+
+        <TextView
+            android:id="@+id/soundname5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="otto-大伙都jb挺猛，怎么到你这就拉了跨啊"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#D3001335"></TextView>
+
+        <SeekBar
+            android:id="@+id/otto5_sk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="495dp"></SeekBar>
+
+<!--        -->
+        <Button
+            android:id="@+id/gaye"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:onClick="click"
+            android:text="play"
+            android:textColor="#000000"
+            tools:ignore="InvalidId,MissingConstraints"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="520dp"
+            />
+
+        <TextView
+            android:id="@+id/soundname6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testsound-geyers"
+            android:layout_marginTop="535dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#D3001335"></TextView>
+
+        <SeekBar
+            android:id="@+id/geye6_sk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="575dp"></SeekBar>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
